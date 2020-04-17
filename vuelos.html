@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="shortcut icon" type="text/css" href="icono.ico">
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="fonts.css">
+<title>Vuelos</title>
+<meta name="description" content ="Vuelos">
+<style>
+#color1{color:#0032FF;}
+#color2{color:pink;}
+#color3{color:#FF9300;}
+#color4{color:white;}
+</style>
+</head>
+<body>
+<header>
+<hgroup>
+<a href="index.html"><img src="logo.png"></a> 
+	<nav>
+    <ul>
+      <li><a href="vuelos.html"><span class="primero"><i class="icon icon-airplane "></i></span>Vuelos</a></li>
+      <li><a href="cruceros.html"><span class="segundo"><i class="icon icon-earth"></i></span>Cruceros</a></li>
+      <li><a href="hoteles.html"><span class="tercero"><i class="icon icon-office"></i></span>Hoteles</a></li>
+      <li><a href="contacto.html"><span class="quinto"><i class="icon icon-bubbles2"></i></span>Contacto</a></li>
+         <li><a href="#"><span class="sexto"><i class="icon icon-arrow-down2"></i></span>Mas opciones</a>
+          <ul>
+            <li><a href="ayuda.html">Ayuda</a></li>    
+          </ul>
+        </li> 
+    </ul>
+	</nav>
+</header>
+
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#FechIda" ).datepicker();
+    $( "#FechVuelta" ).datepicker();
+    } );
+    </script>  
+
+<br>
+<hr>
+	<table width="1391" border="0">
+    <tr>
+      <td width="125"><strong>Origen</strong></td>
+      <td width="127"><strong>Destino</strong></td>
+      <td width="132"><strong>Ida</strong></td>
+      <td width="130"><strong>Vuelta</strong></td>
+      <td width="600"><strong>Pasajeros </strong></td>
+      <td width="180"><strong>Forma de pago</strong></td>
+      <td width="51">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="29"><input name="ida" type="text" id="ida" size="20" /></td>
+      <td><input name="ida2" type="text" id="ida2" size="20" /></td>
+      <td><input name="ida3" type="text" id="FechIda" size="20" /></td>
+      <td><input name="ida4" type="text" id="FechVuelta" size="20" /></td>
+      <td><select name="pasajeros" size="1" id="pasajeros">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+      </select>
+        Adultos
+        <select name="pasajeros2" size="1" id="pasajeros2">
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+        </select>
+Niños (Entre 2-11)
+<select name="pasajeros3" size="1" id="pasajeros3">
+  <option>0</option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+</select>
+Bebés (Menor de 2) </td>
+      <td><form id="form1" name="form1" method="post" action="">
+        <label for="pago"></label>
+        <select name="pago" size="1" id="pago">
+          <option>Transferencia bancaria</option>
+          <option>Redes de pago</option>
+          <option>Tarjeta de credito</option>
+        </select>
+      </form></td>
+      <td><form id="boton" name="boton" method="post" action="">
+        <input type="submit" name="button" id="button" value="Enviar" />
+      </form></td>
+    </tr>
+  </table>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>	
+<br>
+<DIV align="center">
+  
+  <table width="1019" border="0">
+    <tr>
+      <td width="500"><a href="https://www.google.com/maps/place/Hong+Kong/@22.3206281,114.060782,11.25z/data=!4m5!3m4!1s0x3403e2eda332980f:0xf08ab3badbeac97c!8m2!3d22.3193039!4d114.1693611"><img src="Imagenes/hongkongLogo.jpg" width="500" height="300" /></a></td>
+      <td width="503"><a href="https://www.google.com/maps/place/Tokio,+Japón/@35.5040536,138.6486248,8z/data=!3m1!4b1!4m5!3m4!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6761919!4d139.6503106"><img src="Imagenes/tokyoLogo.jpg"  width="500" height="300" /> </a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.google.com/maps/place/Londres,+Reino+Unido/@51.5285582,-0.2416812,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583"><img src="Imagenes/londres2Logo.jpg" width="500" height="300" /> </a></td>
+      <td width="503"><a href="https://www.google.com/maps/place/Machu+Picchu/@-13.1631412,-72.5471516,17z/data=!3m1!4b1!4m5!3m4!1s0x916d9a5f89555555:0x3a10370ea4a01a27!8m2!3d-13.1631412!4d-72.5449629"><img src="Imagenes/peruLogo.jpg"  width="500" height="300" /> </a> </td>
+    </tr>
+    <tr>
+      <td><a href="https://www.google.com/maps/place/París,+Francia/@48.8588377,2.2770202,12z/data=!3m1!4b1!4m5!3m4!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219"><img src="Imagenes/parisLogo.jpg" width="500" height="300" /></a></td>
+      <td width="503"><a href="https://www.google.com/maps/place/Río+de+Janeiro,+Estado+de+Río+de+Janeiro,+Brasil/@-22.9140693,-43.5860681,11z/data=!3m1!4b1!4m5!3m4!1s0x9bde559108a05b:0x50dc426c672fd24e!8m2!3d-22.9068467!4d-43.1728965"><img src="Imagenes/rioLogo.jpg" width="500" height="300" /></a></td>
+    </tr>
+  </table>
+  </DIV>
+
+<hr>
+</body>
+<footer >
+  <table align="center">
+  <tr>
+  <td><img src="logo.png"></td>
+  <td><<img src="patrocinadores.gif"></td>
+  </tr>
+  </table>
+  <div align="right">
+    <a class="divFooter"><p>Av.Gral. Rivera 3729 bis</p></a>
+  </div>  
+
+  <a class="tel">
+  <b>Soporte tecnico:+598 94 229 964 </b><br>
+  </a>
+  <a class="autores">
+  <p><b>Pagina hecha por : Matias Viera y Mateo Vargas</b></p>
+  </a>  
+</footer>
+</html>
